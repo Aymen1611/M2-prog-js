@@ -9,7 +9,7 @@ class App
         let autheur = "Aymen"
         let copyright = "Aymen"
         let distributeur = "Aymen"
-        let darkmode = true;
+        let darkmode = Boolean(10 > 9)
 
         console.log(appNaam);
         console.log(versienummer);
@@ -21,6 +21,37 @@ class App
     }
 }
 
-let app = new App();
-app.runApplication();
+let App = new App();
+App.runApplication();
 
+
+class App
+{
+    
+    
+    runApplication()
+    {
+        this.callmario();
+        this.returnbwa();
+    }
+    
+
+    callmario()
+    {
+        console.log("Mario!!")
+    }
+        
+
+    returnbwa()
+    {
+        let delach = "BWAHAHAHA";
+        return delach
+        
+    }
+
+    
+
+
+}
+let App = new App();
+App.runApplication();
